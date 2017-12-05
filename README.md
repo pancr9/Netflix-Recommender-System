@@ -1,11 +1,14 @@
-## Netflix-Recommender-System
-### Cloud Computing for Data Analysis: Movie Recommendation System
+## Cloud Computing for Data Analysis: Movie Recommendation System
 
 Authors: Aditya Gupta (agupta42@uncc.edu) & Rekhansh Panchal (rpanchal@uncc.edu)
 
-#### Introduction:
-Movie Recommendations is implemented using Collaborative Filtering using pySpark on Netflix Data.
+#### Overview:
 
+* The project aims to analyze and extract insights from the Netflix data using the concepts of Cloud Computing.
+* The goal of the project is to implement Singular Value Decomposition & Pearson Correlation Coefficient algorithms by achieving parallelism on Cloud Computing platform with the help of Apache Spark .
+* Movie Recommendations is implemented using Collaborative Filtering using pySpark on Netflix Data.
+* This project’s primary aim is to provide movie recommendations to the user based on their
+preferences.
 
 #### What is Collaborative Filtering:
 Collaborative Filtering is a method of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from similar users.
@@ -21,14 +24,24 @@ https://www.kaggle.com/netflix-inc/netflix-prize-data/data
 
 
 #### Technique:
-1. Pearson Correlation Coefficient:
+1. Pearson Correlation Coefficient
+2. Singluar Value Decomposition
 
 Shows linear relationship between 2 variables.
 
 
 #### Tools Used:
-Jupyter Notebook
-pySpark
+* Jupyter Notebook
+* pySpark
+* Git and GitHub
 
 #### Results:
+
+
+
+#### Conclusion:
+
+#### Future Scope:
+
+
 
