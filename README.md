@@ -1,7 +1,9 @@
 ## Cloud Computing for Data Analysis: Movie Recommendation System
 
 Authors: Aditya Gupta (agupta42@uncc.edu) & Rekhansh Panchal (rpanchal@uncc.edu)
+
 ***
+
 #### Overview:
 
 * The project aims to analyze and extract insights from the Netflix data using the concepts of Cloud Computing.
@@ -35,21 +37,22 @@ However, use have worked on a part of the complete data for the project.
 ***
 
 #### Expectations
-###### 1. What to expect?
+##### 1. What to expect?
 
 * One ​can ​expect ​the ​implementation ​of ​both ​the ​algorithms ​and ​a ​proper documentation ​of ​outcomes ​of ​this ​project, which ​is ​the ​movie ​recommendations for ​users.
 
-###### 2. Likely to accomplish
+##### 2. Likely to accomplish
 
 * Result ​comparison ​and ​Performance ​Evaluation ​with ​respect ​to ​existing implementation ​of ​algorithms ​and ​project implementation.
 * Documentation ​and ​online-publishing ​of ​the ​codebase.
 
-###### 3. Ideal Accomplishments.
+##### 3. Ideal Accomplishments.
 
 * Suggested ​modifications/changes ​in ​the ​existing ​or ​project ​implementation.
 * Creating ​a ​easy ​to ​use ​library ​that ​one ​can ​use ​for ​analysis ​purpose.
 
 ***
+
 #### Tools Used:
 * Jupyter Notebook
 * pySpark
