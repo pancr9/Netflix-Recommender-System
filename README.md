@@ -107,6 +107,15 @@ spark-submit s3://itcs6190/ALS.py s3://itcs6190/movie_input_ratings.txt s3://itc
 spark-submit s3://itcs6190/ALSUsingLibrary.py s3://itcs6190/movie_input_ratings.txt
 ~~~~
 
+#### Outputs for User ID: 1488844
+
+
+<img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/205.jpg" alt ="Pearson Correlation Coefficient Recommendation"/>
+
+<img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/ALS.png" alt ="Alternating Least Squares Recommendation"/>
+
+<img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/ALSUsingLibrary.png" alt ="ALS from ml Recommendation"/>
+
 #### Results:
 
 The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory recommendations were obtained using 3 methods.
