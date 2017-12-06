@@ -110,10 +110,16 @@ spark-submit s3://itcs6190/ALSUsingLibrary.py s3://itcs6190/movie_input_ratings.
 #### Outputs for User ID: 1488844
 
 
-<img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/205.jpg" alt ="Pearson Correlation Coefficient Recommendation"/>
+* Pearson Correlation Coefficient implementation.
+
+<img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/PCS.png" alt ="Pearson Correlation Coefficient Recommendation"/>
+
+* ALS implementation.
 
 <img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/ALS.png" alt ="Alternating Least Squares Recommendation"/>
 
+
+* ALS from ml Recommendation
 <img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/ALSUsingLibrary.png" alt ="ALS from ml Recommendation"/>
 
 #### Results:
