@@ -1,7 +1,6 @@
 ## Cloud Computing for Data Analysis: Movie Recommendation System
 
-![Project Cover]
-("https://github.com/pancr9/Netflix-Recommender-System/blob/master/205.jpg")
+![Project Cover]("https://github.com/pancr9/Netflix-Recommender-System/blob/master/205.jpg")
 
 #### Authors:
 
@@ -119,9 +118,9 @@ The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory
 
 #### Conclusion:
 
-- [] Created a User - User based recommendation system using ALS and Pearson Correlation Coefficient techniques.
+- [x] Created a User - User based recommendation system using ALS and Pearson Correlation Coefficient techniques.
 
-- [] Displayed top movies recommended a user by taking userId as input.
+- [x] Displayed top movies recommended a user by taking userId as input.
 
 ***
 
