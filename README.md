@@ -5,7 +5,7 @@ Authors: Aditya Gupta (agupta42@uncc.edu) & Rekhansh Panchal (rpanchal@uncc.edu)
 #### Overview:
 
 * The project aims to analyze and extract insights from the Netflix data using the concepts of Cloud Computing.
-* The goal of the project is to implement Pearson Correlation Coefficient & Alternating Least Squares algorithms with the help of PySpark.
+* The goal of the project is to implement Pearson Correlation Coefficient & ~~Singular Value Decomposition~~ Alternating Least Squares algorithms with the help of PySpark.
 * Movie Recommendations is implemented using Collaborative Filtering using pySpark on Netflix Data.
 * This project’s primary aim is to provide movie recommendations to the user based on their
 preferences.
@@ -22,6 +22,7 @@ However, use have worked on a part of the complete data for the project.
 #### Data Link:
 [Movie Rating Files](https://www.kaggle.com/netflix-inc/netflix-prize-data/data)
 
+***
 
 #### Technique:
 1. Pearson Correlation Coefficient
@@ -29,12 +30,11 @@ However, use have worked on a part of the complete data for the project.
 2. Alternative Least Squares
 
 
-
-
 #### Tools Used:
 * Jupyter Notebook
 * pySpark
 * Git and GitHub
+
 
 #### Results:
 
