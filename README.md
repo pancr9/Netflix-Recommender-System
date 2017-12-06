@@ -1,6 +1,6 @@
 ## Cloud Computing for Data Analysis: Movie Recommendation System
 
-<img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/205.jpg">
+<img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/205.jpg" alt="Drawing" style="width: 200px;"/>
 
 #### Authors: 
 Aditya Gupta (agupta42@uncc.edu) & Rekhansh Panchal (rpanchal@uncc.edu)
