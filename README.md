@@ -70,7 +70,7 @@ However, use have worked on a part of the complete data for the project.
 #### Conclusion:
 
 Created a User - User based recommendation system using ALS and Pearson Correlation Coefficient techniques.
-Display top movies recommended a user.
+Displayed top movies recommended a user by taking userId as input.
 
 ***
 
