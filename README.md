@@ -87,7 +87,6 @@ ssh -i keypair.pem hadoop@ec2-34-238-246-242.compute-1.amazonaws.com
 ~~~~
 
 * Import Pandas on the cluster:
-
 ~~~~
 sudo pip install pandas
 ~~~~
@@ -101,7 +100,6 @@ spark-submit s3://itcs6190/PCSalgorithm.py s3://itcs6190/movie_input_ratings.txt
 ~~~~
 spark-submit s3://itcs6190/ALS.py s3://itcs6190/movie_input_ratings.txt s3://itcs6190/movie_titles.csv 1199825
 ~~~~
-
 
 * Run ALS using library for recommend movies for all users
 ~~~~
