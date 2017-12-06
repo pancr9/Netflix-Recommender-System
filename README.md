@@ -77,28 +77,36 @@ However, use have worked on a part of the complete data for the project.
 * Create a Spark Cluster on Amazon EC2 and get the details of the cluster to use it on Terminal.
 
 * Confirm Connection to the Cluster with obtained keypair.
-
-> ssh -i ~/keypair.pem -ND 8157 hadoop@ec2-34-238-246-242.compute-1.amazonaws.com
+~~~~
+ssh -i ~/keypair.pem -ND 8157 hadoop@ec2-34-238-246-242.compute-1.amazonaws.com
+~~~~
 
 * Start Cluster Access
-
-> ssh -i keypair.pem hadoop@ec2-34-238-246-242.compute-1.amazonaws.com
+~~~~
+ssh -i keypair.pem hadoop@ec2-34-238-246-242.compute-1.amazonaws.com
+~~~~
 
 * Import Pandas on the cluster:
 
-> sudo pip install pandas
+~~~~
+sudo pip install pandas
+~~~~
 
 * Run PCSalgorithm on input data consisting 4,20,000 ratings stored on S3 Storage. To recommend movies for user 1199825.
-
-> spark-submit s3://itcs6190/PCSalgorithm.py s3://itcs6190/movie_input_ratings.txt s3://itcs6190/movie_titles.csv 1199825
+~~~~
+spark-submit s3://itcs6190/PCSalgorithm.py s3://itcs6190/movie_input_ratings.txt s3://itcs6190/movie_titles.csv 1199825
+~~~~
 
 * Run ALS on input data consisting 4,20,000 ratings stored on S3 Storage. To recommend movies for user 1199825.
+~~~~
+spark-submit s3://itcs6190/ALS.py s3://itcs6190/movie_input_ratings.txt s3://itcs6190/movie_titles.csv 1199825
+~~~~
 
-> spark-submit s3://itcs6190/ALS.py s3://itcs6190/movie_input_ratings.txt s3://itcs6190/movie_titles.csv 1199825
 
 * Run ALS using library for recommend movies for all users
-
-> spark-submit s3://itcs6190/ALSUsingLibrary.py s3://itcs6190/movie_input_ratings.txt
+~~~~
+spark-submit s3://itcs6190/ALSUsingLibrary.py s3://itcs6190/movie_input_ratings.txt
+~~~~
 
 #### Results:
 
