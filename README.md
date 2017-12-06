@@ -73,5 +73,10 @@ However, use have worked on a part of the complete data for the project.
 
 #### Future Scope:
 
+***
 
+#### Challenges Faced:
+* We started with implementing Singular Value Decomposition technique, but couldn't achieve anything potential with that.
+* Had no prior experience on implementing the code on PySpark, so had a lot of minor issues while handling the data.
+* The data available is huge for to be considered, hence we had to limit it down to a lower scale.
 
