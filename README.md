@@ -1,12 +1,14 @@
 ## Cloud Computing for Data Analysis: Movie Recommendation System
 
-<img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/205.jpg" alt="Drawing" style="width: 200px;"/>
+![Project Cover]
+("https://github.com/pancr9/Netflix-Recommender-System/blob/master/205.jpg")
 
-#### Authors: 
-Aditya Gupta (agupta42@uncc.edu) & Rekhansh Panchal (rpanchal@uncc.edu)
+#### Authors:
+
+* Aditya Gupta (agupta42@uncc.edu) 
+* Rekhansh Panchal (rpanchal@uncc.edu)
 
 Group 11
-
 
 ***
 
@@ -109,21 +111,24 @@ spark-submit s3://itcs6190/ALSUsingLibrary.py s3://itcs6190/movie_input_ratings.
 #### Results:
 
 The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory recommendations were obtained using 3 methods.
-* Using Pearson Correlation ( User - User based )
+* Using Pearson Correlation ( User - User )
 * Using ALS implementation 
-* Using ALS library from mllib ( User - User and Item - Item based )
-
+* Using ALS library from mllib ( User - User )
 
 ***
 
 #### Conclusion:
 
-Created a User - User based recommendation system using ALS and Pearson Correlation Coefficient techniques.
-Displayed top movies recommended a user by taking userId as input.
+- [] Created a User - User based recommendation system using ALS and Pearson Correlation Coefficient techniques.
+
+- [] Displayed top movies recommended a user by taking userId as input.
 
 ***
 
 #### Future Scope:
+
+* Recommend movies to new user and predict ratings for the same.
+* Creating a easy to use library that one can use for analysis purpose. 
 
 ***
 
@@ -131,6 +136,6 @@ Displayed top movies recommended a user by taking userId as input.
 
 * We started with implementing Singular Value Decomposition technique, but couldn't achieve anything potential with that.
 * Had no prior experience on implementing the code on PySpark, so had a lot of minor issues while handling the data.
-* The data available is huge for to be considered, hence we had to limit it down to a lower scale.
+* The data available, is huge to be considered, hence we had to limit it down to a lower scale.
 
 ***
