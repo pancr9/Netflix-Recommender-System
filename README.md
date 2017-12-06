@@ -1,7 +1,9 @@
 ## Cloud Computing for Data Analysis: Movie Recommendation System
 
-Authors: Aditya Gupta (agupta42@uncc.edu) & Rekhansh Panchal (rpanchal@uncc.edu)
+#### Authors: 
+Aditya Gupta (agupta42@uncc.edu) & Rekhansh Panchal (rpanchal@uncc.edu)
 
+Group 11
 ***
 
 #### Overview:
@@ -46,8 +48,8 @@ However, use have worked on a part of the complete data for the project.
 
 ##### 2. Likely to accomplish
 
-* Result ​comparison ​and ​Performance ​Evaluation ​with ​respect ​to ​existing implementation ​of ​algorithms ​and ​project implementation.
-* Documentation ​and ​online-publishing ​of ​the ​codebase.
+* Result comparison and Performance Evaluation with respect to existing implementation of algorithms and project implementation.
+* Documentation and online-publishing of the codebase.
 
 ##### 3. Ideal Accomplishments.
 
