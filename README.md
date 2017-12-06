@@ -66,10 +66,17 @@ However, use have worked on a part of the complete data for the project.
 * Jupyter Notebook
 * pySpark
 * Git and GitHub
+* Amazon S3 and EC2
 
 ***
 
 #### Results:
+
+The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory recommendations were obtained using 3 methods.
+* Using Pearson Correlation ( User - User based )
+* Using ALS implementation 
+* Using ALS library from mllib ( User - User and Item - Item based )
+
 
 ***
 
