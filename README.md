@@ -211,6 +211,7 @@ The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory
 * We started with implementing Singular Value Decomposition technique, but couldn't achieve anything potential with that due to multiple missing rating entries. Thus, we implemented ALS and ALS using ML library.
 * Had no prior experience on implementing the code on PySpark, so had a lot of minor issues while handling the data.
 * The data available, is huge to be considered, hence we had to limit it down to a lower scale.
+* Hadoop DSBA Cluster was non-funcitonal during our 
 
 ***
 
@@ -218,17 +219,24 @@ The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory
 
 The complete project has been accomplished together with inputs from both the team members. 
 
-Pearson Correlation Co-efficient: 
-ALS:
-ALS using Library: 
-Project Report: 
+
+| Number  | Task                  | Contribution      |
+| ------- |:---------------------:| -----------------:|
+| 1       | Pearson Correlation   |            Aditya |
+| 2       | ALS Implementation    |          Rekhansh |
+| 3       | ALS Using Library     |          Rekhansh |
+| 4       | Cluter and Deployment | Aditya & Rekhansh |
+| 5       | Project Report        | Aditya & Rekhansh |
 
 ***
 
 #### References:
+* Recommender Systems: https://www.youtube.com/playlist?list=PL_npY1DYXHPT-3dorG7Em6d18P4JRFDvH
+* Pearson Correlation: http://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/
+* ALS: Large-scale Parallel Collaborative Filtering for the Netﬂix Prize: http://www.grappa.univ-lille3.fr/~mary/cours/stats/centrale/reco/paper/MatrixFactorizationALS.pdf
 
-Pearson Correlation: http://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/
-ALS: 
+
+
 
 
 
