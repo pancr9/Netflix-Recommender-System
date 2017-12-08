@@ -19,6 +19,8 @@ Group 11
 * This project’s primary aim is to provide movie recommendations to the user based on their
 preferences.
 
+***
+
 #### Tasks Involved and Steps Implemented:
 
 * Configuring Jupyter Notebook and Spark
@@ -31,16 +33,13 @@ preferences.
 * Output generation
 * Project Report
 
-
-#### Approach:
-
-* Need to fill something here.
+***
 
 #### Motivation:
 
 * Most of the online shopping is due to the personalised recommendations to users, reminding them about an item.
 * It not only shows user interest but also helps the user to keep a price track of the items.
-* This handy feature urged us to learn to technique of recommendation and algorithms behind it.
+* This handy feature urged us to learn the technique of recommendation and algorithms behind it.
 * Movie recommendation system is not something out-of-box project, infact, it has been already implemented by people. However, we considered this, more of a learning project and went with the movie recommendation option.
 
 ***
@@ -86,7 +85,6 @@ Input Movie Title file cotains: movie_id, year_of_release, movie_title
 ##### 2. Alternative Least Squares
 <img src="images/Emoticons/ALSFormula.PNG" class = "inline"/>
 
-Tell how it works.
 
 ***
 
@@ -97,8 +95,15 @@ Tell how it works.
 * Git for tracking the code changes.
 * GitHub for hosting the website.
 
+***
+#### Framework: 
 
-#### Expectations
+* Apache Spark
+
+<img src="images/Emoticons/spark-logo.png" class = "inline"/>
+
+
+#### Expectations/Aspects
 ##### 1. What to expect?
 
 * One can expect the implementation of both the algorithms and a proper documentation of outcomes of this project, which is the movie recommendations for users.
@@ -120,6 +125,7 @@ Tell how it works.
 * pySpark
 * Git and GitHub
 * Amazon S3 and EC2
+
 
 ***
 
