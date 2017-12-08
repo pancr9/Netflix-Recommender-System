@@ -75,7 +75,7 @@ Input Movie Title file cotains: movie_id, year_of_release, movie_title
 
 #### Algorithm:
 ##### 1. Pearson Correlation Coefficient
-<img src="images/Emoticons/PearsonFormula.jpg" class = "inline"/>
+<img src="images/Emoticons/PearsonFormula.PNG" class = "inline"/>
 
 * We achieved movie recommendation results by calculating the Pearson Correlation Coefficient and thereby similarity between users         based on the movies they watched and gave similar ratings.
 * The coefficient value range from -1 to 1. Where -1 and 1 indicate a negative and positive correlation respectively.
@@ -84,7 +84,7 @@ Input Movie Title file cotains: movie_id, year_of_release, movie_title
 
 
 ##### 2. Alternative Least Squares
-<img src="images/Emoticons/ALSFormula.jpg" class = "inline"/>
+<img src="images/Emoticons/ALSFormula.PNG" class = "inline"/>
 
 Tell how it works.
 
