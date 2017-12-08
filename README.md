@@ -1,6 +1,6 @@
 ## Cloud Computing for Data Analysis: Movie Recommendation System
 
-<img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/205.jpg">
+<img src="images/Emoticons/205.jpg" class = "inline"/>
 
 #### Authors:
 
