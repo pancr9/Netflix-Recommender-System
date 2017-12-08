@@ -248,7 +248,7 @@ The complete project has been accomplished together with inputs from both the te
 
 * [ALS: Large-scale Parallel Collaborative Filtering for the Netﬂix](http://www.grappa.univ-lille3.fr/~mary/cours/stats/centrale/reco/paper/MatrixFactorizationALS.pdf)
 
-* [Spark Documentation] (http://spark.apache.org/docs/latest/api/python/index.html)
+* [Spark Documentation](http://spark.apache.org/docs/latest/api/python/index.html)
 
 
 
