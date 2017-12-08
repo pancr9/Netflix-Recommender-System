@@ -75,7 +75,7 @@ Input Movie Title file cotains: movie_id, year_of_release, movie_title
 ##### 1. Pearson Correlation Coefficient
 <img src="images/Emoticons/PearsonFormula.PNG" class = "inline"/>
 
-* We achieved movie recommendation results by calculating the Pearson Correlation Coefficient and thereby similarity between users         based on the movies they watched and gave similar ratings.
+* We achieved movie recommendation results by calculating the Pearson Correlation Coefficient and thereby similarity between users based on the movies they watched and gave similar ratings.
 * The coefficient value range from -1 to 1. Where -1 and 1 indicate a negative and positive correlation respectively.
 * Coefficient with value 0 indicates no correlation between the two variables.
 * Statistically it can be said that Pearson Correlation Coefficient between two variables can be calculated as the covariance of the variables divided by the product of their standard deviations.
@@ -84,6 +84,9 @@ Input Movie Title file cotains: movie_id, year_of_release, movie_title
 ##### 2. Alternative Least Squares
 <img src="images/Emoticons/ALSFormula.PNG" class = "inline"/>
 
+* When we make the user-item matrix, we decompose into an lower dimensional matrix of user factors and item factors using Matrix Factorization.
+* These lower dimension matrices are used to estimate the ratings by minimizing the cost function.
+* Over multiple iterations, at the convergence point, ratings are predicted and displayed as results.
 
 ***
 
