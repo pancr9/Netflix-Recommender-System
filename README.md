@@ -19,9 +19,34 @@ Group 11
 * This project’s primary aim is to provide movie recommendations to the user based on their
 preferences.
 
+#### Tasks Involved and Steps Implemented:
+
+* Configuring Jupyter Notebook and Spark
+* Understanding the problem statement
+* Understanding the algorithm
+* Fetching the data
+* Data cleaning
+* Implementing PCS, ALS, and ALS with Library on Local Machine.
+* Deploying the code and data on Amazon Web Services.
+* Output generation
+* Project Report
+
+
+#### Approach:
+
+* Need to fill something here.
+
+#### Motivation:
+
+* Most of the online shopping is due to the personalised recommendations to users, reminding them about an item.
+* It not only shows user interest but also helps the user to keep a price track of the items.
+* This handy feature urged us to learn to technique of recommendation and algorithms behind it.
+* Movie recommendation system is not something out-of-box project, infact, it has been already implemented by people. However, we considered this, more of a learning project and went with the movie recommendation option.
+
 ***
 #### What is Collaborative Filtering:
 Collaborative Filtering is a method of making automatic predictions (filtering) about the interests of a user by collecting preferences or taste information from similar users.
+
 
 ***
 
@@ -32,6 +57,14 @@ The data were collected between October, 1998 and December, 2005 and reflect the
 
 However, use have worked on a part of the complete data for the project.
 
+Number of Users: 750
+Number of Movies: 1,000
+Number of Ratings: 4,20,000
+
+Input Ratings Data File contains: movie_id, user_id, ratings, date_of_rating
+Input Movie Title file cotains: movie_id, year_of_release, movie_title
+
+
 ***
 
 #### Data Link:
@@ -39,17 +72,30 @@ However, use have worked on a part of the complete data for the project.
 
 ***
 
-#### Technique:
+#### Algorithm:
 1. Pearson Correlation Coefficient
+
+Tell how it works.
+
 
 2. Alternative Least Squares
 
+Tell how it works.
+
 ***
+
+#### External Tools
+
+* Amazon S3 for storage of data and program.
+* Amazon EC2 (Spark 2.2.0) for running the program on cluster.
+* Git for tracking the code changes.
+* GitHub for hosting the website.
+
 
 #### Expectations
 ##### 1. What to expect?
 
-* One ​can ​expect ​the ​implementation ​of ​both ​the ​algorithms ​and ​a ​proper documentation ​of ​outcomes ​of ​this ​project, which ​is ​the ​movie ​recommendations for ​users.
+* One can expect the implementation of both the algorithms and a proper documentation of outcomes of this project, which is the movie recommendations for users.
 
 ##### 2. Likely to accomplish
 
@@ -107,6 +153,8 @@ spark-submit s3://itcs6190/ALS.py s3://itcs6190/movie_input_ratings.txt s3://itc
 spark-submit s3://itcs6190/ALSUsingLibrary.py s3://itcs6190/movie_input_ratings.txt
 ~~~~
 
+***
+
 #### Outputs for User ID: 1488844
 
 
@@ -121,6 +169,8 @@ spark-submit s3://itcs6190/ALSUsingLibrary.py s3://itcs6190/movie_input_ratings.
 
 * ALS from ml Recommendation
 <img src="https://github.com/pancr9/Netflix-Recommender-System/blob/master/ALSUsingLibrary.png" alt ="ALS from ml Recommendation"/>
+
+***
 
 #### Results:
 
@@ -146,10 +196,41 @@ The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory
 
 ***
 
+#### Code Snippet:
+
+* Data Cleaning
+
+
+* Pearson Calculation
+
+***
+
 #### Challenges Faced:
 
-* We started with implementing Singular Value Decomposition technique, but couldn't achieve anything potential with that.
+* We started with implementing Singular Value Decomposition technique, but couldn't achieve anything potential with that due to multiple missing rating entries. Thus, we implemented ALS and ALS using ML library.
 * Had no prior experience on implementing the code on PySpark, so had a lot of minor issues while handling the data.
 * The data available, is huge to be considered, hence we had to limit it down to a lower scale.
 
 ***
+
+#### Work Division:
+
+The complete project has been accomplished together with inputs from both the team members. 
+
+Pearson Correlation Co-efficient: 
+ALS:
+ALS using Library: 
+Project Report: 
+
+***
+
+#### References:
+
+Pearson Correlation: http://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/
+ALS: 
+
+
+
+
+
+
