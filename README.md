@@ -57,11 +57,12 @@ The data were collected between October, 1998 and December, 2005 and reflect the
 
 However, use have worked on a part of the complete data for the project.
 
-Number of Users: 750
-Number of Movies: 1,000
-Number of Ratings: 4,20,000
+1. Number of Users: 750
+2. Number of Movies: 1,000
+3. Number of Ratings: 4,20,000
 
-Input Ratings Data File contains: movie_id, user_id, ratings, date_of_rating
+Input Ratings Data File contains (Before Cleaning): movie_id, user_id, ratings, date_of_rating
+
 Input Movie Title file cotains: movie_id, year_of_release, movie_title
 
 
@@ -73,12 +74,17 @@ Input Movie Title file cotains: movie_id, year_of_release, movie_title
 ***
 
 #### Algorithm:
-1. Pearson Correlation Coefficient
+##### 1. Pearson Correlation Coefficient
+<img src="images/Emoticons/PearsonFormula.jpg" class = "inline"/>
 
-Tell how it works.
+* We achieved movie recommendation results by calculating the Pearson Correlation Coefficient and thereby similarity between users         based on the movies they watched and gave similar ratings.
+* The coefficient value range from -1 to 1. Where -1 and 1 indicate a negative and positive correlation respectively.
+* Coefficient with value 0 indicates no correlation between the two variables.
+* Statistically it can be said that Pearson Correlation Coefficient between two variables can be calculated as the covariance of the variables divided by the product of their standard deviations.
 
 
-2. Alternative Least Squares
+##### 2. Alternative Least Squares
+<img src="images/Emoticons/ALSFormula.jpg" class = "inline"/>
 
 Tell how it works.
 
@@ -231,11 +237,14 @@ The complete project has been accomplished together with inputs from both the te
 ***
 
 #### References:
-* Recommender Systems: https://www.youtube.com/playlist?list=PL_npY1DYXHPT-3dorG7Em6d18P4JRFDvH
+* Recommender Systems: 
+https://www.youtube.com/playlist?list=PL_npY1DYXHPT-3dorG7Em6d18P4JRFDvH
 
-* Pearson Correlation: http://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/
+* Pearson Correlation: 
+http://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/
 
-* ALS: Large-scale Parallel Collaborative Filtering for the Netﬂix Prize: http://www.grappa.univ-lille3.fr/~mary/cours/stats/centrale/reco/paper/MatrixFactorizationALS.pdf
+* ALS: Large-scale Parallel Collaborative Filtering for the Netﬂix Prize: 
+http://www.grappa.univ-lille3.fr/~mary/cours/stats/centrale/reco/paper/MatrixFactorizationALS.pdf
 
 
 
