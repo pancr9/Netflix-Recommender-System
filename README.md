@@ -167,8 +167,9 @@ spark-submit s3://itcs6190/ALSUsingLibrary.py s3://itcs6190/movie_input_ratings.
 <img src="images/Emoticons/ALS.png" alt ="Alternating Least Squares Recommendation" class = "inline"/>
 
 
-* ALS from ml Recommendation
-<img src="images/Emoticons/ALSUsingLibrary.png" alt ="ALS from ml Recommendation" class = "inline/>
+* ALS from ml Recommendation.
+
+<img src="images/Emoticons/ALSUsingLibrary.png" alt ="ALS from ml Recommendation" class = "inline"/>
 
 ***
 
