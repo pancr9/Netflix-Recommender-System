@@ -210,6 +210,8 @@ The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory
 
 * Pearson Calculation
 
+<img src="images/Emoticons/PCSSnippet.png" class = "inline"/>
+
 ***
 
 #### Challenges Faced:
