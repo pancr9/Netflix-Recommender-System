@@ -222,17 +222,19 @@ The complete project has been accomplished together with inputs from both the te
 
 | Number  | Task                  | Contribution      |
 | ------- |:---------------------:| -----------------:|
-| 1       | Pearson Correlation   |            Aditya |
-| 2       | ALS Implementation    |          Rekhansh |
-| 3       | ALS Using Library     |          Rekhansh |
+| 1       |   Pearson Correlation |            Aditya |
+| 2       |    ALS Implementation |          Rekhansh |
+| 3       |     ALS Using Library |          Rekhansh |
 | 4       | Cluter and Deployment | Aditya & Rekhansh |
-| 5       | Project Report        | Aditya & Rekhansh |
+| 5       |        Project Report | Aditya & Rekhansh |
 
 ***
 
 #### References:
 * Recommender Systems: https://www.youtube.com/playlist?list=PL_npY1DYXHPT-3dorG7Em6d18P4JRFDvH
+
 * Pearson Correlation: http://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/
+
 * ALS: Large-scale Parallel Collaborative Filtering for the Netﬂix Prize: http://www.grappa.univ-lille3.fr/~mary/cours/stats/centrale/reco/paper/MatrixFactorizationALS.pdf
 
 
