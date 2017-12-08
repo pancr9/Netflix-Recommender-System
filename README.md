@@ -161,8 +161,9 @@ spark-submit s3://itcs6190/ALSUsingLibrary.py s3://itcs6190/movie_input_ratings.
 
 ***
 
-#### Outputs for User ID: 1488844
+#### Outputs for User ID: 1488844 & Results
 
+The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory recommendations were obtained using 3 methods.
 
 * Pearson Correlation Coefficient implementation.
 
@@ -179,14 +180,9 @@ spark-submit s3://itcs6190/ALSUsingLibrary.py s3://itcs6190/movie_input_ratings.
 
 ***
 
-#### Results:
+##### Root Mean Square Error: 2.015
 
-The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory recommendations were obtained using 3 methods.
-* Using Pearson Correlation ( User - User )
-* Using ALS implementation 
-* Using ALS library from mllib ( User - User )
 
-***
 
 #### Conclusion:
 
@@ -207,6 +203,7 @@ The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory
 
 * Data Cleaning
 
+<img src="images/Emoticons/Data Cleaning.png" class = "inline"/>
 
 * Pearson Calculation
 
