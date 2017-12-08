@@ -86,7 +86,7 @@ Input Movie Title file cotains: movie_id, year_of_release, movie_title
 
 * When we make the user-item matrix, we decompose into an lower dimensional matrix of user factors and item factors using Matrix Factorization.
 * These lower dimension matrices are used to estimate the ratings by minimizing the cost function.
-* Over multiple iterations, at the convergence point, ratings are predicted and displayed as results.
+* Over multiple iterations, at the convergence point by reducing the Root Mean Square Error, ratings are predicted and displayed as results.
 
 ***
 
