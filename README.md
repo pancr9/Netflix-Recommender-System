@@ -186,11 +186,9 @@ The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory
 
 <img src="images/Emoticons/ALSUsingLibrary.png" alt ="ALS from ml Recommendation" class = "inline"/>
 
-***
-
 ##### Root Mean Square Error: 2.015
 
-
+***
 
 #### Conclusion:
 
@@ -224,7 +222,7 @@ The programs to recommend were ran on Amazon EC2 Spark cluster. And satisfactory
 * We started with implementing Singular Value Decomposition technique, but couldn't achieve anything potential with that due to multiple missing rating entries. Thus, we implemented ALS and ALS using ML library.
 * Had no prior experience on implementing the code on PySpark, so had a lot of minor issues while handling the data.
 * The data available, is huge to be considered, hence we had to limit it down to a lower scale.
-* Hadoop DSBA Cluster was non-funcitonal during our 
+* Hadoop DSBA Cluster was non-funcitonal during our project timeline.
 
 ***
 
@@ -244,16 +242,13 @@ The complete project has been accomplished together with inputs from both the te
 ***
 
 #### References:
-* Recommender Systems: 
-https://www.youtube.com/playlist?list=PL_npY1DYXHPT-3dorG7Em6d18P4JRFDvH
+* [Recommender Systems: Youtube](https://www.youtube.com/playlist?list=PL_npY1DYXHPT-3dorG7Em6d18P4JRFDvH)
 
-* Pearson Correlation: 
-http://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/
+* [Pearson Correlation](http://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/)
 
-* ALS: Large-scale Parallel Collaborative Filtering for the Netﬂix Prize: 
-http://www.grappa.univ-lille3.fr/~mary/cours/stats/centrale/reco/paper/MatrixFactorizationALS.pdf
+* [ALS: Large-scale Parallel Collaborative Filtering for the Netﬂix](http://www.grappa.univ-lille3.fr/~mary/cours/stats/centrale/reco/paper/MatrixFactorizationALS.pdf)
 
-
+* [Spark Documentation] (http://spark.apache.org/docs/latest/api/python/index.html)
 
 
 
